@@ -1,5 +1,7 @@
 # AI Research Lab — Research Index
 
+> Status labels and update rules: [Governance policy](GOVERNANCE.md).
+
 ## Public research lines
 
 | Research line | Core question | Artifact | Maturity |
