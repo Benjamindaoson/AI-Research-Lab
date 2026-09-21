@@ -46,3 +46,8 @@ Problem
 ## Research integrity
 
 The Lab does not treat a roadmap, synthetic illustration, or planned experiment as a result. Public claims must be traceable to code, data, or a clearly documented evaluation artifact.
+
+
+## Governance
+
+This Hub follows the shared status taxonomy, link-only policy, private-research boundary, and release/archive synchronization checklist in [GOVERNANCE.md](GOVERNANCE.md).
