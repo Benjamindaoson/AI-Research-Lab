@@ -4,38 +4,35 @@
 
 ## Public research lines
 
-| Research line | Core question | Artifact | Maturity |
+| Research line | Core question | Artifact | Status |
 | --- | --- | --- | --- |
-| RewardLens | Can models with the same static accuracy depend on visual evidence differently? | [RewardLens](https://github.com/Benjamindaoson/RewardLens) | Public research artifact |
-| Reward-model robustness | Does an 8B reward model rank correctly for the intended reason? | [reward-modeling-lab](https://github.com/Benjamindaoson/reward-modeling-lab) | Public measured experiment |
-| Physics-grounded decisions | Can explicit physical evidence support safe next-edit decisions and abstention? | [FitGround](https://github.com/Benjamindaoson/FitGround) | Public flagship |
-| Reliable business agents | Which runtime controls make long-horizon analytics recoverable and auditable? | [enterprise-data-agent](https://github.com/Benjamindaoson/enterprise-data-agent) | Public system and benchmark work |
+| RewardLens | Can equal static accuracy hide different visual-evidence dependence? | [RewardLens](https://github.com/Benjamindaoson/RewardLens) | **Research** |
+| Reward-model robustness | Does an 8B reward model rank for the intended reason? | [reward-modeling-lab](https://github.com/Benjamindaoson/reward-modeling-lab) | **Flagship** · measured experiment |
+| Physics-grounded decisions | Can physical evidence support safe next-edit decisions and abstention? | [FitGround](https://github.com/Benjamindaoson/FitGround) | **Flagship** |
+| Reliable business agents | Which runtime controls make long-horizon analytics recoverable and auditable? | [enterprise-data-agent](https://github.com/Benjamindaoson/enterprise-data-agent) | **Flagship** · system research |
 
 ## Active private research
 
-| Research line | Current state | Release gate |
+Private work is listed without repository links.
+
+| Research line | Current state | Status and release gate |
 | --- | --- | --- |
-| SmolVLA checkpoint-history adaptation | Private protocol development | Frozen MATCH eligibility, controlled OOD adaptation, repeated evaluation |
-| FinEvidence | Private evidence-grounded RAG research | Reproducible benchmark, baselines, and stable claim |
-| Trajectory-level alignment | Private exploration | Clear task, baselines, and measurable contribution |
-| Multimodal chart preference optimization | Private exploration | Validated dataset and controlled comparison |
-| Scientific agents for hierarchical experiments | Research design | Formal decision problem and non-trivial empirical test |
+| Progress Aliasing V3 | Independent preregistered study; V2 retained as frozen provenance | **Research** · keep private |
+| SmolVLA checkpoint-history adaptation | Private protocol development | **Research** · MATCH eligibility, controlled OOD adaptation, repeated evaluation |
+| FinEvidence | Evidence-qualified financial RAG experiments | **Research** · reproducible benchmark, baselines, stable claim |
+| Trajectory-level alignment | Private exploration | **Research** · clear task, baselines, measurable contribution |
+| Multimodal chart preference optimization | Private exploration | **Research** · validated dataset and controlled comparison |
+| Scientific agents for hierarchical experiments | Research design | **Research** · formal decision problem and non-trivial empirical test |
 
 ## Cross-lab ownership
 
 | Artifact type | Canonical home |
 | --- | --- |
-| Runtime and system implementation | Agent Systems Lab or project repository |
-| Model training implementation | LLM Systems Lab or project repository |
-| Robot/data infrastructure | Embodied AI Lab or project repository |
+| Runtime and system implementation | Agent Systems Lab or independent repository |
+| Model training implementation | LLM Systems Lab or independent repository |
+| Robot and data infrastructure | Embodied AI Lab or independent repository |
 | Claim, protocol, benchmark, and paper map | AI Research Lab |
 
 ## Promotion gate
 
-A research line becomes a featured public artifact only after:
-
-1. the central claim is falsifiable and scoped;
-2. the evaluation set and exclusion rules are frozen;
-3. appropriate baselines and controls are run;
-4. uncertainty and failure cases are reported;
-5. the public repository supports reproduction.
+Public promotion requires a falsifiable claim, frozen evaluation and exclusion rules, appropriate baselines, uncertainty, failure analysis, and a reproducible public artifact.
